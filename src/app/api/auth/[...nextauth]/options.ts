@@ -40,6 +40,7 @@ export const authOptions: NextAuthOptions = {
                 }
             },
         })
+        // TODO : add more providers here : Github, LinkedIn, Google, Facebook, etc
     ],
     callbacks: {
         async jwt({ token, user }) {
